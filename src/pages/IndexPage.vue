@@ -1,5 +1,5 @@
 <template>
-  <q-page class="flex flex-center"> MOISE KADESI </q-page>
+  <q-page class="flex flex-center"> MOISE KADESI WEB PROFIL</q-page>
 </template>
 
 <script>
