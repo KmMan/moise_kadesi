@@ -177,8 +177,8 @@
                                       class="h4 text-bold text-accent"
                                     >
                                       Un logiciel de gestion qui integre
-                                      pluiseur modules pour la gestion de vos
-                                      activites
+                                      pluiseurs modules pour la gestion de vos
+                                      activités
                                     </q-item-label>
                                   </h4>
                                 </div>
@@ -192,7 +192,7 @@
                                     :class="
                                       parseInt($q.screen.width) > 900
                                         ? 'dw-100 flex flex-center pd-lr-prc-5'
-                                        : 'dw-100 flex flex-center pd-lr-prc-10'
+                                        : 'dw-100 flex flex-center pd-lr-prc-5'
                                     "
                                   >
                                     <q-item
@@ -289,7 +289,7 @@
 
                               <div class="flex items-center dw-100" style="">
                                 <div
-                                  class="bg-bty-1 dw-100 text-white px-4 py-6 md:p-10 lg:rounded md:mx-1 md:my-1"
+                                  class="bg-bty-1 dw-100 text-white px-4 py-6 md:p-4 lg:rounded md:mx-1 md:my-1"
                                 >
                                   <p class="text-sm dw-100">
                                     <q-item-label
