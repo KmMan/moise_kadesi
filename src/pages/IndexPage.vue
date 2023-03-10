@@ -69,9 +69,8 @@
                                       class="pd-tb-10 flex flex-center dw-100"
                                     >
                                       <q-img
-                                        class="bd-r-10"
-                                        height="50px"
-                                        width="50px"
+                                        height="80px"
+                                        width="80px"
                                         src="../ic/logo.png"
                                         alt="logo"
                                       />
