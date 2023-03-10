@@ -1,6 +1,5 @@
 <template>
-  MOISE KADESI
-  </q-page>
+  <q-page class="flex flex-center"> MOISE KADESI </q-page>
 </template>
 
 <script>
