@@ -422,12 +422,12 @@
                                     <q-item-label
                                       class="dw-100 text-right flex flex-center"
                                     >
-                                      <q-img
+                                      <!-- <q-img
                                         width="40px"
                                         height="30px"
                                         class="mr-r-10"
                                         src="../ic/logo.png"
-                                      />
+                                      /> -->
                                       <span
                                         class="text-h5 text-bold text-white"
                                       >
