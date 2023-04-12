@@ -15,7 +15,7 @@
             >
               <q-list class="dw-100">
                 <q-item-label
-                  class="pd-20 dw-100 text-center text-inter-bold text-accent"
+                  class="pd-10 dw-100 text-center text-inter-bold text-accent"
                 >
                   PROFIL PROFESSIONEL
                 </q-item-label>
@@ -38,8 +38,8 @@
                       <div
                         :class="
                           parseInt($q.screen.width) > 900
-                            ? 'flex justify-center px-40 items-center flex-wrap g-6 text-gray-800'
-                            : 'flex justify-center items-center flex-wrap g-6 text-gray-800'
+                            ? 'flex justify-center px-40 items-center flex-wrap g-6 '
+                            : 'flex justify-center items-center flex-wrap g-6 '
                         "
                       >
                         <div
@@ -50,7 +50,7 @@
                               : 'dw-100'
                           "
                         >
-                          <div class="block bg-transparent rounded-lg">
+                          <div class="block bg-static-trans-1 rounded-lg">
                             <div class="lg:flex lg:flex-wrap g-0">
                               <div class="lg:w-6/12 px-4 md:px-10">
                                 <div
@@ -61,7 +61,7 @@
                                       <q-item-label
                                         class="text-h5 text-bold text-accent pd-b-5 mr-b-5"
                                       >
-                                        {{ "Product Manager" }}
+                                        {{ "Production manager" }}
                                       </q-item-label>
                                     </h4>
                                     <q-item
@@ -70,7 +70,7 @@
                                     >
                                       <q-img
                                         height="80px"
-                                        width="80px"
+                                        width="100px"
                                         src="../ic/logo.png"
                                         alt="logo"
                                       />
@@ -82,8 +82,8 @@
                                       >
                                       <br />
                                     </h4>
-                                    <h4 class="mb-5 text-bold">
-                                      <span>Services</span>
+                                    <h4 class="mb-5 text-bold text-white">
+                                      <span>work is your only freedom</span>
                                     </h4>
                                   </div>
                                   <form>
@@ -92,13 +92,14 @@
                                       <q-item-label
                                         class="text-center dw-100 h4 text-accent"
                                       >
-                                        Free Spirit est un Lorem ipsum dolor sit
-                                        amet consectetur adipisicing elit.
-                                        Soluta neque sunt, odio aliquid eligendi
-                                        quaerat suscipit corrupti voluptas
-                                        deserunt ullam sequi praesentium commodi
-                                        assumenda, culpa exercitationem cum
-                                        molestias corporis autem?
+                                        <span class="text-white text-bold"
+                                          >Free Spirit</span
+                                        >
+                                        est une organisation digitale qui, comme
+                                        son nom l'indique, œuvre dans le secteur
+                                        numérique. Nous fournissons une gamme
+                                        diversifiée des services numériques dans
+                                        l'étude comme dans la mise en œuvre.
                                       </q-item-label>
                                     </div>
                                   </form>
@@ -110,24 +111,32 @@
                                 style=""
                               >
                                 <div
-                                  class="bg-bty-1 text-white px-4 dh-100 py-6 md:p-10 bd-r-5 md:mx-1 md:my-1"
+                                  class="bg-primary text-white px-4 dh-100 py-6 md:p-10 bd-r-5 md:mx-1 md:my-1"
                                 >
                                   <h4 class="text-xl font-semibold mb-4">
                                     <q-item-label
                                       lines="1"
                                       class="text-h5 text-bold pd-b-5 mr-b-5"
                                     >
-                                      {{ "Profil Description" }}
+                                      {{ "Profil & Description" }}
                                     </q-item-label>
                                   </h4>
                                   <p class="text-sm pd-b-20 mr-b-20 dh-40">
                                     <q-item-label lines="10" class="h4">
-                                      Lorem ipsum dolor sit amet consectetur
-                                      adipisicing elit. Soluta neque sunt, odio
-                                      aliquid eligendi quaerat suscipit corrupti
-                                      voluptas deserunt ullam sequi praesentium
-                                      commodi assumenda, culpa exercitationem
-                                      cum molestias corporis autem?
+                                      <span class=""
+                                        >Concepteur des systèmes d'information
+                                        dans les normes de la nouvelle
+                                        technologie de l'information et de la
+                                        communication.</span
+                                      >
+                                      <br />
+                                      <br />
+                                      <span class="mr-b-10">Domaines :</span
+                                      ><br />
+                                      <br />
+                                      <span> -> Réseaux informatique;</span>
+                                      <br />
+                                      <span> -> Développement logiciel</span>
                                     </q-item-label>
                                   </p>
                                   <h4 class="text-xl font-semibold mb-4">
@@ -147,13 +156,13 @@
                                   <h4 class="font-semibold pd-l-10 mb-2">
                                     <q-item-label lines="1">
                                       <q-icon size="20px" name="email" /> :
-                                      {{ "moise.kadesi.manasse@gmail.com" }}
+                                      {{ "freespirit.contact.org@gmail.com" }}
                                     </q-item-label>
                                   </h4>
                                   <h4 class="font-semibold pd-l-10 mb-6">
                                     <q-item-label lines="1">
                                       <q-icon size="20px" name="phone" /> :
-                                      {{ "+243 998 358 238" }}
+                                      {{ "+(243) 998 358 238" }}
                                     </q-item-label>
                                   </h4>
                                 </div>
@@ -173,10 +182,38 @@
                                   </h4>
                                   <h4 class="text-xl font-semibold pd-t-20">
                                     <q-item-label
+                                      class="h4 text-bold text-accent"
+                                    >
+                                      En dehors des services sur mesure que nous
+                                      offrons à nos clients, Nous fournissons
+                                      aussi des produits standards et services
+                                      de qualité pour une bonne gestion des vos
+                                      différentes activités.
+                                    </q-item-label>
+                                  </h4>
+                                  <h4
+                                    class="text-xl font-semibold pd-t-20 mr-t-20"
+                                  >
+                                    <q-item-label
                                       lines="1"
-                                      class="text-h6 text-bold text-accent"
+                                      class="text-h5 text-bold text-accent"
+                                    >
+                                      <q-icon
+                                        size="40px"
+                                        name="category"
+                                        color="white"
+                                        class="mr-r-10"
+                                      />
+                                      <q-space />
+                                    </q-item-label>
+                                  </h4>
+                                  <h4 class="text-xl font-semibold">
+                                    <q-item-label
+                                      lines="1"
+                                      class="text-h4 text-bold text-accent"
                                     >
                                       Produits
+                                      <q-space />
                                     </q-item-label>
                                   </h4>
                                   <h4 class="text-xl font-semibold pd-t-20">
@@ -191,9 +228,13 @@
                                     <q-item-label
                                       class="h4 text-bold text-accent"
                                     >
-                                      Un logiciel de gestion qui integre
-                                      pluiseurs modules pour la gestion de vos
-                                      activités
+                                      Manager est un logiciel multi modules qui
+                                      permet une gestion parfaite des vos
+                                      activités dans différents domaines. Un
+                                      grand nombre de ses modules sont
+                                      disponibles et fonctionnels. Pour plus
+                                      d'informations vous pouvez nous contacter
+                                      par les contacts disponibles plus haut.
                                     </q-item-label>
                                   </h4>
                                 </div>
@@ -237,17 +278,12 @@
                                             ' '
                                           : '') +
                                         ' ' +
-                                        'bg-white bd-r-5 pn-n pd-5 mr-lr-10 mr-tb-10'
+                                        'bg-static-trans-2 bd-r-5 pn-n pd-5 mr-lr-10 mr-tb-10'
                                       "
                                     >
                                       <q-list class="dw-100">
                                         <q-item
-                                          :class="
-                                            'bg-' +
-                                            ramdom_colors_gen[si] +
-                                            ' text-secondary ' +
-                                            'bd-top-radius-5 bd-bottom-radius-20'
-                                          "
+                                          :class="'bd-b bd-static-trans-5'"
                                         >
                                           <q-item-label
                                             lines="1"
@@ -256,7 +292,7 @@
                                             {{ s.label.toUpperCase() }}
                                           </q-item-label>
                                           <q-tooltip
-                                            class="bg-secondary bd bd-color-accent text-white"
+                                            class="bg-secondary bd bd-static-trans-5 text-white"
                                           >
                                             {{ s.label.toUpperCase() }}
                                           </q-tooltip>
@@ -264,7 +300,7 @@
                                         <q-item>
                                           <q-item-label
                                             lines="1"
-                                            class="text-h4 text-primary pd-bt-20 mr-tb-20 dw-100 text-center"
+                                            class="text-h4 text-white pd-bt-20 mr-tb-20 dw-100 text-center"
                                           >
                                             {{ "M" + (si + 1) }}
                                           </q-item-label>
@@ -273,12 +309,12 @@
                                         <q-item>
                                           <q-item-label
                                             lines="4"
-                                            class="text-black h4 pd-bt-20 mr-tb-20 dw-100 text-center"
+                                            class="text-white h4 pd-bt-20 mr-tb-20 dw-100 text-center"
                                           >
                                             {{ s.details }}
                                           </q-item-label>
                                           <q-tooltip
-                                            class="bg-secondary bd bd-color-accent text-white dmxw-50"
+                                            class="bg-secondary bd bd-static-trans-5 text-white dmxw-50"
                                           >
                                             {{ s.details }}
                                           </q-tooltip>
@@ -333,12 +369,6 @@
                                       reseaux
                                     </q-item-label>
                                   </p>
-                                  <p class="font-semibold">
-                                    <q-item-label class="text-bold text-accent">
-                                      1.3. Conception & mise en place des
-                                      reseaux
-                                    </q-item-label>
-                                  </p>
 
                                   <h4 class="text-xl font-semibold pd-tb-20">
                                     <q-item-label
@@ -355,6 +385,11 @@
                                   <p class="font-semibold pd-t-10">
                                     <q-item-label class="text-bold text-accent">
                                       2.2. Developpement Mobile
+                                    </q-item-label>
+                                  </p>
+                                  <p class="font-semibold pd-t-10">
+                                    <q-item-label class="text-bold text-accent">
+                                      2.3. Developpement Desktop
                                     </q-item-label>
                                   </p>
                                   <h4
@@ -381,20 +416,28 @@
 
                               <div class="flex items-center dw-100" style="">
                                 <div
-                                  class="bg-bty-1 dw-100 text-white px-4 py-6 md:p-4 bd-r-5 md:mx-1 md:my-1"
+                                  class="bg-primary dw-100 text-white px-4 py-6 md:p-4 bd-r-5 md:mx-1 md:my-1"
                                 >
                                   <p class="text-sm dw-100">
                                     <q-item-label
                                       class="dw-100 text-right flex flex-center"
                                     >
+                                      <q-img
+                                        width="40px"
+                                        height="30px"
+                                        class="mr-r-10"
+                                        src="../ic/logo.png"
+                                      />
                                       <span
-                                        class="text-h5 text-bold text-secondary"
+                                        class="text-h5 text-bold text-white"
                                       >
                                         Free Spirit
                                       </span>
                                       <q-space />
-                                      <span class="text-green">
-                                        Nous sommes a votre service.
+                                      <span
+                                        class="text-green text-bold text-inter-bold"
+                                      >
+                                        work is your only freedom
                                       </span>
                                     </q-item-label>
                                   </p>
@@ -423,7 +466,7 @@ export default defineComponent({
   name: "IndexPage",
   setup() {
     const $q = useQuasar();
-    var ramdom_colors = ["blue", "pink", "green", "yellow-8", "red", "red-4"];
+    var ramdom_colors = ["dark", "pink", "green", "yellow-8", "red", "red-4"];
     var ramdom_colors_gen = [];
     var managerSystemServices = [
       {
@@ -437,7 +480,10 @@ export default defineComponent({
         keygiven: "",
         details:
           "Ce module intègre des capacité de gestion d'une entité commerciale en matière de gestion de stock, de vente et bien d'autre fonctionnalités",
-        location: { lat: 0, lng: 0 },
+        location: {
+          lat: 0,
+          lng: 0,
+        },
       },
       {
         label: "Hotel",
@@ -450,7 +496,10 @@ export default defineComponent({
         keygiven: "",
         details:
           "Ce module intègre des fonctionnalités permettant de gérer un hôtel(Logement, réservations, restaurant interne, boite de nuit, bar et bien de choses",
-        location: { lat: 0, lng: 0 },
+        location: {
+          lat: 0,
+          lng: 0,
+        },
       },
       {
         label: "Bar - resto - night-club",
@@ -463,7 +512,10 @@ export default defineComponent({
         keygiven: "",
         details:
           "Ce module permet de gérer une entité comme un restaurant, et plusieurs autres entités du même type.",
-        location: { lat: 0, lng: 0 },
+        location: {
+          lat: 0,
+          lng: 0,
+        },
       },
       {
         label: "Transport",
@@ -476,7 +528,10 @@ export default defineComponent({
         keygiven: "",
         details:
           "Ce module dispose de fonctionnalités permettant de rendre vos service disponible en ligne",
-        location: { lat: 0, lng: 0 },
+        location: {
+          lat: 0,
+          lng: 0,
+        },
       },
       {
         label: "Gestion - personnel",
@@ -489,7 +544,10 @@ export default defineComponent({
         keygiven: "",
         details:
           "Ce module rassemble l’ensemble des tâches administratives essentielles à une bonne gestion des ressources humaines.",
-        location: { lat: 0, lng: 0 },
+        location: {
+          lat: 0,
+          lng: 0,
+        },
       },
       {
         label: "Schola - management",
@@ -502,7 +560,10 @@ export default defineComponent({
         keygiven: "",
         details:
           "Ce module intègre des fonctionnalités permettant la gestion d'une institution scolaire.",
-        location: { lat: 0, lng: 0 },
+        location: {
+          lat: 0,
+          lng: 0,
+        },
       },
       {
         label: "Finances",
@@ -515,9 +576,13 @@ export default defineComponent({
         keygiven: "",
         details:
           "Ce module intègre des fonctionnalités permettant de gérer de vos finances. Il prend en charge vos entrées des autres modules en compte. Il vous permet des gérer vos autres dépenses et entrées par des comptes.",
-        location: { lat: 0, lng: 0 },
+        location: {
+          lat: 0,
+          lng: 0,
+        },
       },
     ];
+
     function gen_ramdom_colors() {
       for (let i = 0; i < 7; i++) {
         ramdom_colors_gen.push(ramdom_colors[Math.floor(Math.random() * 6)]);

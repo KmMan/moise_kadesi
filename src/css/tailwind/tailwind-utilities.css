@@ -9243,7 +9243,7 @@
   color: #4a5568
 }
 
-.text-gray-800 {
+. {
   color: #2d3748
 }
 
@@ -9615,7 +9615,7 @@
   color: #4a5568
 }
 
-.hover\:text-gray-800:hover {
+.hover\::hover {
   color: #2d3748
 }
 
@@ -9987,7 +9987,7 @@
   color: #4a5568
 }
 
-.focus\:text-gray-800:focus {
+.focus\::focus {
   color: #2d3748
 }
 
@@ -20018,7 +20018,7 @@
     color: #4a5568
   }
 
-  .sm\:text-gray-800 {
+  .sm\: {
     color: #2d3748
   }
 
@@ -20390,7 +20390,7 @@
     color: #4a5568
   }
 
-  .sm\:hover\:text-gray-800:hover {
+  .sm\:hover\::hover {
     color: #2d3748
   }
 
@@ -20762,7 +20762,7 @@
     color: #4a5568
   }
 
-  .sm\:focus\:text-gray-800:focus {
+  .sm\:focus\::focus {
     color: #2d3748
   }
 
@@ -30794,7 +30794,7 @@
     color: #4a5568
   }
 
-  .md\:text-gray-800 {
+  .md\: {
     color: #2d3748
   }
 
@@ -31166,7 +31166,7 @@
     color: #4a5568
   }
 
-  .md\:hover\:text-gray-800:hover {
+  .md\:hover\::hover {
     color: #2d3748
   }
 
@@ -31538,7 +31538,7 @@
     color: #4a5568
   }
 
-  .md\:focus\:text-gray-800:focus {
+  .md\:focus\::focus {
     color: #2d3748
   }
 
@@ -41570,7 +41570,7 @@
     color: #4a5568
   }
 
-  .lg\:text-gray-800 {
+  .lg\: {
     color: #2d3748
   }
 
@@ -41942,7 +41942,7 @@
     color: #4a5568
   }
 
-  .lg\:hover\:text-gray-800:hover {
+  .lg\:hover\::hover {
     color: #2d3748
   }
 
@@ -42314,7 +42314,7 @@
     color: #4a5568
   }
 
-  .lg\:focus\:text-gray-800:focus {
+  .lg\:focus\::focus {
     color: #2d3748
   }
 
@@ -52346,7 +52346,7 @@
     color: #4a5568
   }
 
-  .xl\:text-gray-800 {
+  .xl\: {
     color: #2d3748
   }
 
@@ -52718,7 +52718,7 @@
     color: #4a5568
   }
 
-  .xl\:hover\:text-gray-800:hover {
+  .xl\:hover\::hover {
     color: #2d3748
   }
 
@@ -53090,7 +53090,7 @@
     color: #4a5568
   }
 
-  .xl\:focus\:text-gray-800:focus {
+  .xl\:focus\::focus {
     color: #2d3748
   }
 

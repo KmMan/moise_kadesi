@@ -347,7 +347,7 @@ body {
 .bd-trans-10:hover {
   border-color: rgba(var(--trans-color), 0.8) !important;
 }
-.bg-bty-1 {
+.bg-primary {
   background: linear-gradient(to right, var(--accent-color), var(--primary-color), var(--secondary-color));
 }
 .bg-trans {
