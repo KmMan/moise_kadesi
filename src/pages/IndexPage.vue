@@ -111,7 +111,7 @@
                                 style=""
                               >
                                 <div
-                                  class="bg-primary mr-lr-5 text-white px-4 dh-100 py-6 md:p-10 bd-r-5 md:mx-1 md:my-1"
+                                  class="bg-primary mr-lr-10 text-white px-4 dh-100 py-6 md:p-10 bd-r-5 md:mx-1 md:my-1"
                                 >
                                   <h4 class="text-xl font-semibold mb-4">
                                     <q-item-label
