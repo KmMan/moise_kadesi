@@ -57,11 +57,11 @@
                                   class="px-4 py-4 md:p-2 lg:rounded md:mx-1 md:my-1"
                                 >
                                   <div class="text-center">
-                                    <h4 class="text-xl font-semibold mb-4">
+                                    <h4 class="font-semibold mb-4">
                                       <q-item-label
-                                        class="text-h5 text-bold text-accent pd-b-5 mr-b-5"
+                                        class="text-h6 text-bold text-accent pd-b-5 mr-b-5"
                                       >
-                                        {{ "Production manager" }}
+                                        {{ "Production Manager" }}
                                       </q-item-label>
                                     </h4>
                                     <q-item
@@ -107,11 +107,11 @@
                               </div>
 
                               <div
-                                class="lg:w-6/12 flex items-center lg:rounded"
+                                class="lg:w-6/12 flex items-center lg:rounded pd-10"
                                 style=""
                               >
                                 <div
-                                  class="bg-primary mr-lr-10 text-white px-4 dh-100 py-6 md:p-10 bd-r-5 md:mx-1 md:my-1"
+                                  class="bd bd-static-trans-2 bg-static-trans-1 mr-lr-10 text-white px-4 dh-100 py-6 md:p-10 bd-r-5 md:mx-1 md:my-1"
                                 >
                                   <h4 class="text-xl font-semibold mb-4">
                                     <q-item-label
@@ -175,7 +175,7 @@
                                   <h4 class="text-xl font-semibold">
                                     <q-item-label
                                       lines="1"
-                                      class="text-h5 text-bold text-accent"
+                                      class="text-h5 text-bold text-accent text-white"
                                     >
                                       Nos produits & Services
                                     </q-item-label>
@@ -196,7 +196,7 @@
                                   >
                                     <q-item-label
                                       lines="1"
-                                      class="text-h5 text-bold text-accent"
+                                      class="text-h5 text-bold text-accent pd-b-20"
                                     >
                                       <q-icon
                                         size="40px"
@@ -219,7 +219,7 @@
                                   <h4 class="text-xl font-semibold pd-t-20">
                                     <q-item-label
                                       lines="1"
-                                      class="text-h5 text-bold text-accent"
+                                      class="text-h5 text-bold text-accent text-white"
                                     >
                                       1. Manager
                                     </q-item-label>
@@ -278,16 +278,17 @@
                                             ' '
                                           : '') +
                                         ' ' +
-                                        'bg-static-trans-2 bd-r-5 pn-n pd-5 mr-lr-10 mr-tb-10'
+                                        'bg-static-trans-1 bd bd-static-trans-2 bd-r-5 pn-n pd-5 mr-lr-10 mr-tb-10'
                                       "
                                     >
                                       <q-list class="dw-100">
                                         <q-item
-                                          :class="'bd-b bd-static-trans-5'"
+                                          dense
+                                          :class="'pd-n bd-b bd-static-trans-5'"
                                         >
                                           <q-item-label
                                             lines="1"
-                                            class="text-inter-bold text-white pd-bt-20 mr-tb-20 dw-100 text-center"
+                                            class="text-inter-bold text-white pd-lr-5 dw-100 text-center"
                                           >
                                             {{ s.label.toUpperCase() }}
                                           </q-item-label>
@@ -300,33 +301,33 @@
                                         <q-item>
                                           <q-item-label
                                             lines="1"
-                                            class="text-h4 text-white pd-bt-20 mr-tb-20 dw-100 text-center"
+                                            class="text-white mr-tb-10 dw-100 text-center text-inter-bold"
                                           >
-                                            {{ "M" + (si + 1) }}
+                                            {{ "MODULE " + (si + 1) }}
                                           </q-item-label>
                                         </q-item>
 
                                         <q-item>
                                           <q-item-label
                                             lines="4"
-                                            class="text-white h4 pd-bt-20 mr-tb-20 dw-100 text-center"
+                                            class="text-white h4 mr-tb-10 dw-100 text-center"
                                           >
                                             {{ s.details }}
                                           </q-item-label>
                                           <q-tooltip
-                                            class="bg-secondary bd bd-static-trans-5 text-white dmxw-50"
+                                            class="bg-secondary h5 bd bd-static-trans-5 text-white dmxw-50"
                                           >
                                             {{ s.details }}
                                           </q-tooltip>
                                         </q-item>
 
                                         <q-item
-                                          class="flex flex-center pd-tb-20 mr-tb-20"
+                                          class="flex flex-center pd-tb-10 mr-tb-10"
                                         >
                                           <q-btn
                                             flat
                                             :class="
-                                              'text-white bg-' +
+                                              'bd bd-static-trans-5 text-' +
                                               ramdom_colors_gen[si]
                                             "
                                             :label="'Apply'"
@@ -353,62 +354,68 @@
 
                                   <h4 class="text-xl font-semibold pd-tb-20">
                                     <q-item-label
-                                      class="text-h6 text-bold text-accent"
+                                      class="text-h6 text-bold text-accent text-white"
                                     >
                                       1. Conception & mise en place de :
                                     </q-item-label>
                                   </h4>
                                   <p class="font-semibold">
                                     <q-item-label class="text-bold text-accent">
-                                      1.1. Systemes d'informations informatique
+                                      <span class="text-green">1.1</span>.
+                                      Systemes d'informations informatique
                                     </q-item-label>
                                   </p>
                                   <p class="font-semibold pd-tb-10">
                                     <q-item-label class="text-bold text-accent">
-                                      1.2. Conception & mise en place des
-                                      reseaux
+                                      <span class="text-green">1.2</span
+                                      >.Conception & mise en place des reseaux
                                     </q-item-label>
                                   </p>
 
                                   <h4 class="text-xl font-semibold pd-tb-20">
                                     <q-item-label
-                                      class="text-h6 text-bold text-accent"
+                                      class="text-h6 text-bold text-accent text-white"
                                     >
                                       2. Developpement :
                                     </q-item-label>
                                   </h4>
                                   <p class="font-semibold">
                                     <q-item-label class="text-bold text-accent">
-                                      2.1. Developpement Web
+                                      <span class="text-green">2.1</span>.
+                                      Developpement Web
                                     </q-item-label>
                                   </p>
                                   <p class="font-semibold pd-t-10">
                                     <q-item-label class="text-bold text-accent">
-                                      2.2. Developpement Mobile
+                                      <span class="text-green">2.2</span>.
+                                      Developpement Mobile
                                     </q-item-label>
                                   </p>
                                   <p class="font-semibold pd-t-10">
                                     <q-item-label class="text-bold text-accent">
-                                      2.3. Developpement Desktop
+                                      <span class="text-green">2.3</span>.
+                                      Developpement Desktop
                                     </q-item-label>
                                   </p>
                                   <h4
                                     class="text-xl font-semibold pd-t-20 pd-tb-20"
                                   >
                                     <q-item-label
-                                      class="text-h6 text-bold text-accent"
+                                      class="text-h6 text-bold text-accent text-white"
                                     >
                                       3. Maintenance, etc :
                                     </q-item-label>
                                   </h4>
                                   <p class="font-semibold">
                                     <q-item-label class="text-bold text-accent">
-                                      3.1. Audit informatique;
+                                      <span class="text-green">3.1</span>. Audit
+                                      informatique;
                                     </q-item-label>
                                   </p>
                                   <p class="font-semibold pd-tb-10">
                                     <q-item-label class="text-bold text-accent">
-                                      3.2. Maintenance informatique.
+                                      <span class="text-green">3.2</span>.
+                                      Maintenance informatique.
                                     </q-item-label>
                                   </p>
                                 </div>
