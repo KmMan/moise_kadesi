@@ -473,7 +473,7 @@ export default defineComponent({
   name: "IndexPage",
   setup() {
     const $q = useQuasar();
-    var ramdom_colors = ["dark", "pink", "green", "yellow-8", "red", "red-4"];
+    var ramdom_colors = ["white", "pink", "green", "yellow-8", "red", "red-4"];
     var ramdom_colors_gen = [];
     var managerSystemServices = [
       {
