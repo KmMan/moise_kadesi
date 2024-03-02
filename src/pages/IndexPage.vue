@@ -78,7 +78,7 @@
                                     <h4 class="text-xl mt-1">
                                       <span
                                         class="text-inter-bold text-green"
-                                        >{{ "Free Spirit" }}</span
+                                        >{{ "243Digit" }}</span
                                       >
                                       <br />
                                     </h4>
@@ -93,7 +93,7 @@
                                         class="text-center dw-100 h4 text-accent"
                                       >
                                         <span class="text-white text-bold"
-                                          >Free Spirit</span
+                                          >243Digit</span
                                         >
                                         est une organisation digitale qui, comme
                                         son nom l'indique, œuvre dans le secteur
@@ -438,7 +438,7 @@
                                       <span
                                         class="text-h5 text-bold text-white"
                                       >
-                                        Free Spirit
+                                        243Digit
                                       </span>
                                       <q-space />
                                       <span
