@@ -137,6 +137,10 @@
                                       <span> -> Réseaux informatique;</span>
                                       <br />
                                       <span> -> Développement logiciel</span>
+                                      <br />
+                                      <span> -> Maintenance informatique</span>
+                                      <br />
+                                      <span> -> Remote Support</span>
                                     </q-item-label>
                                   </p>
                                   <h4 class="text-xl font-semibold mb-4">
@@ -156,7 +160,13 @@
                                   <h4 class="font-semibold pd-l-10 mb-2">
                                     <q-item-label lines="1">
                                       <q-icon size="20px" name="email" /> :
-                                      {{ "freespirit.contact.org@gmail.com" }}
+                                      {{ "moise.kadesi.manasse@gmail.com" }}
+                                    </q-item-label>
+                                  </h4>
+                                  <h4 class="font-semibold pd-l-10 mb-2">
+                                    <q-item-label lines="1">
+                                      <q-icon size="20px" name="email" /> :
+                                      {{ "243digit.contact.pro@gmail.com" }}
                                     </q-item-label>
                                   </h4>
                                   <h4 class="font-semibold pd-l-10 mb-6">
@@ -252,6 +262,7 @@
                                     "
                                   >
                                     <q-item
+                                      v-memo="[]"
                                       v-for="(s, si) in managerSystemServices"
                                       :key="si"
                                       dense
@@ -338,7 +349,34 @@
                                   </q-list>
                                 </div>
                               </div>
-
+                              <!-- <div class="flex items-center dw-100" style="">
+                                <div
+                                  class="dw-100 text-adapt px-4 py-6 md:p-10 lg:rounded md:mx-1 md:my-1"
+                                >
+                                  <h4 class="text-xl font-semibold pd-t-20">
+                                        <q-item-label
+                                          lines="1"
+                                          class="text-h5 text-bold text-accent text-white"
+                                        >
+                                          2. Univ Manager
+                                        </q-item-label>
+                                  </h4>
+                                </div>
+                              </div>
+                              <div class="flex items-center dw-100" style="">
+                                <div
+                                  class="dw-100 text-adapt px-4 py-6 md:p-10 lg:rounded md:mx-1 md:my-1"
+                                >
+                                  <h4 class="text-xl font-semibold pd-t-20">
+                                        <q-item-label
+                                          lines="1"
+                                          class="text-h5 text-bold text-accent text-white"
+                                        >
+                                          3. Guest Auth
+                                        </q-item-label>
+                                  </h4>
+                                </div>
+                              </div> -->
                               <div class="flex items-center dw-100" style="">
                                 <div
                                   class="dw-100 text-adapt px-4 py-6 md:p-10 lg:rounded md:mx-1 md:my-1"
@@ -346,7 +384,7 @@
                                   <h4 class="text-xl font-semibold pd-tb-20">
                                     <q-item-label
                                       lines="1"
-                                      class="text-h6 text-bold text-accent"
+                                      class="text-h4 text-bold text-accent"
                                     >
                                       Services
                                     </q-item-label>
@@ -420,7 +458,75 @@
                                   </p>
                                 </div>
                               </div>
+                              <!-- <div class="flex items-center dw-100" style="">
+                                <div
+                                  class="dw-100 text-adapt px-4 py-6 md:p-10 lg:rounded md:mx-1 md:my-1"
+                                >
+                                  <h4 class="text-xl font-semibold">
+                                    <q-item-label
+                                      lines="1"
+                                      class="text-h4 text-bold text-accent"
+                                    >
+                                    Réalisations
+                                      <q-space />
+                                    </q-item-label>
+                                  </h4>
+                                <q-list class="dw-100 flex">
+                                  <q-item dense :class="
+                                  (parseInt($q.screen.width) > 900 ? '':'')+' '+
+                                  ('pd-n')
+                                  ">
+                                    <q-list>
+                                      <q-img height="100px" width="150px" class="bd-r-10 bg-static-trans-1" src="../ic/pelections.jpg">
+                                        <q-list class="absolute-bottom dw-100 pd-n">
+                                          <q-item-label class="dw-100 text-inter-bold">
+                                            Projet ELections
+                                          </q-item-label>
+                                          <q-item-label class="dw-100 text-bold">
+                                            Julizha
+                                          </q-item-label>
+                                        </q-list>
+                                      </q-img>
+                                    </q-list>
+                                  </q-item>
+                                  <q-item dense :class="
+                                  (parseInt($q.screen.width) > 900 ? 'pd-l-10':'')+' '+
+                                  ('pd-n')
+                                  ">
+                                    <q-list>
+                                      <q-img height="100px" width="120px" class="bd-r-10 bg-static-trans-1" src="../ic/kinigi.png">
+                                        <q-list class="absolute-bottom dw-100 pd-n">
+                                          <q-item-label class="dw-100 text-inter-bold">
+                                            Kinigi App
+                                          </q-item-label>
+                                          <q-item-label class="dw-100 text-bold">
+                                            Kinigi Ltd
+                                          </q-item-label>
+                                        </q-list>
+                                      </q-img>
+                                    </q-list>
+                                  </q-item>
 
+                                  <q-item dense :class="
+                                  (parseInt($q.screen.width) > 900 ? 'pd-l-10':'')+' '+
+                                  ('pd-n')
+                                  ">
+                                    <q-list>
+                                      <q-img height="100px" width="250px" class="bd-r-10 bg-white" src="../ic/cipreasbl.png">
+                                        <q-list class="absolute-bottom dw-100 pd-n">
+                                          <q-item-label class="dw-100 text-inter-bold">
+                                            Website
+                                          </q-item-label>
+                                          <q-item-label class="dw-100 text-bold">
+                                            Cipre Education
+                                          </q-item-label>
+                                        </q-list>
+                                      </q-img>
+                                    </q-list>
+                                  </q-item>
+                                </q-list>
+                                </div>
+                              </div> -->
                               <div class="flex items-center dw-100" style="">
                                 <div
                                   class="bg-primary dw-100 text-white px-4 py-6 md:p-4 bd-r-5 md:mx-1 md:my-1"
